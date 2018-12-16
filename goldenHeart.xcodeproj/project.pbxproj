@@ -13,6 +13,8 @@
 		73C43BB821C655A00078DF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C43BB621C655A00078DF04 /* Main.storyboard */; };
 		73C43BBA21C655A20078DF04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C43BB921C655A20078DF04 /* Assets.xcassets */; };
 		73C43BBD21C655A20078DF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C43BBB21C655A20078DF04 /* LaunchScreen.storyboard */; };
+		73C43BC621C6592A0078DF04 /* goldenBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73C43BC521C6592A0078DF04 /* goldenBack.jpg */; };
+		73C43BC821C659300078DF04 /* pappie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73C43BC721C659300078DF04 /* pappie.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		73C43BB921C655A20078DF04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C43BBC21C655A20078DF04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73C43BBE21C655A20078DF04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C43BC521C6592A0078DF04 /* goldenBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldenBack.jpg; sourceTree = "<group>"; };
+		73C43BC721C659300078DF04 /* pappie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pappie.jpg; sourceTree = "<group>"; };
 		D5231ECECC0A5AEC87E9ABF7 /* Pods-goldenHeart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goldenHeart.debug.xcconfig"; path = "Target Support Files/Pods-goldenHeart/Pods-goldenHeart.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,9 +70,19 @@
 				73C43BB621C655A00078DF04 /* Main.storyboard */,
 				73C43BB921C655A20078DF04 /* Assets.xcassets */,
 				73C43BBB21C655A20078DF04 /* LaunchScreen.storyboard */,
+				73C43BC421C657F80078DF04 /* images */,
 				73C43BBE21C655A20078DF04 /* Info.plist */,
 			);
 			path = goldenHeart;
+			sourceTree = "<group>";
+		};
+		73C43BC421C657F80078DF04 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				73C43BC721C659300078DF04 /* pappie.jpg */,
+				73C43BC521C6592A0078DF04 /* goldenBack.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		7D0AE2545026ACAC29CF746B /* Pods */ = {
@@ -77,7 +91,6 @@
 				D5231ECECC0A5AEC87E9ABF7 /* Pods-goldenHeart.debug.xcconfig */,
 				5235261A26A5EF42B64E2AAB /* Pods-goldenHeart.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C43BBD21C655A20078DF04 /* LaunchScreen.storyboard in Resources */,
+				73C43BC821C659300078DF04 /* pappie.jpg in Resources */,
 				73C43BBA21C655A20078DF04 /* Assets.xcassets in Resources */,
+				73C43BC621C6592A0078DF04 /* goldenBack.jpg in Resources */,
 				73C43BB821C655A00078DF04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
